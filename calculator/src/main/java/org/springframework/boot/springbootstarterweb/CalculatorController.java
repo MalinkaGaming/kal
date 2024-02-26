@@ -37,5 +37,6 @@ public class CalculatorController {
         }
         int result = num1 / num2;
         return num1 + " / " + num2 + " = " + result;
+
     }
 }
