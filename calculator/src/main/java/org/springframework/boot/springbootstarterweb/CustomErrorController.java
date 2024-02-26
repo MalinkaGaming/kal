@@ -9,7 +9,6 @@ public class CustomErrorController implements ErrorController {
     public String handleError() {
         return "Sorry, an error occurred. Please try again later.";
     }
-
     public String getErrorPath() {
         return "/error";
     }
